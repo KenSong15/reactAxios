@@ -6,7 +6,7 @@ import registerServiceWorker from "./registerServiceWorker";
 import Axios from "axios";
 
 Axios.defaults.baseURL = "https://jsonplaceholder.typicode.com";
-Axios.defaults.headers.common["Authorization"] = "AUTH TOKEN KEN";
+Axios.defaults.headers.common["Authorization"] = "TOKEN KEN";
 Axios.defaults.headers.post["Content-Type"] = "application/json";
 
 //whole axios share one configuration, can send request with auth information
